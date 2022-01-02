@@ -65,9 +65,10 @@ body > .mb-container > .mb-track {
 }
 #List {
   width: 500px;
-  height: 50%;
+  height: 300px;
   margin: 10px auto;
   overflow: auto;
+  /* border: 1px solid black; */
 }
 #List > #itemList {
   width: 90%;
