@@ -1,0 +1,54 @@
+{
+  "_from": "minibarjs",
+  "_id": "minibarjs@0.5.1",
+  "_inBundle": false,
+  "_integrity": "sha512-F1hDy+u2dDh7U/P3Lp5l/Zs0TXZ8nw9MxGmO2A5TFIQfTj7fVizYfTRzWYsqss9q6d0MvPe5m+70TNsOac856A==",
+  "_location": "/minibarjs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "minibarjs",
+    "name": "minibarjs",
+    "escapedName": "minibarjs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/minibarjs/-/minibarjs-0.5.1.tgz",
+  "_shasum": "0367657efd4e4fc22ecdb5683a5b953983e7c98a",
+  "_spec": "minibarjs",
+  "_where": "C:\\Users\\saeed\\Desktop\\React\\Toplearn Prac\\New-1\\my-app",
+  "author": {
+    "name": "Karl Saunders"
+  },
+  "bugs": {
+    "url": "https://github.com/Mobius1/MiniBar/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A lightweight, dependency-free scrollbar library written in vanilla javascript.",
+  "directories": {
+    "doc": "docs"
+  },
+  "homepage": "https://github.com/Mobius1/MiniBar#readme",
+  "keywords": [
+    "scrollbar",
+    "javascript"
+  ],
+  "license": "MIT",
+  "main": "dist/minibar.min.js",
+  "name": "minibarjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mobius1/MiniBar.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.5.1"
+}

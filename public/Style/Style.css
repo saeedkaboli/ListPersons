@@ -1,0 +1,121 @@
+@font-face {
+  font-family: Yekan;
+  src: url(../Font/Yekan.ttf);
+}
+@font-face {
+  font-family: BootStrap;
+  src: url(../../node_modules/bootstrap-icons/font/fonts/bootstrap-icons.woff);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Yekan;
+}
+@media screen and (max-width: 700px) {
+  body{
+    display: none;
+  }
+ }
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #c5c5c5;
+}
+.mb-track {
+  border-radius: 5px;
+}
+
+.mb-bar {
+  background-color: #4c9689;
+}
+
+body > .mb-container > .mb-track {
+  background-color: #110c10;
+  border-radius: 5px;
+}
+.App {
+  width: 100%;
+  height: 100vh;
+}
+.Section {
+  width: 100%;
+  height: 73vh;
+  background-color: #fff;
+}
+.Section > .Section-Container {
+  width: 80%;
+  height: 100%;
+  margin: 0px auto;
+}
+.Section > .Section-Container > .Section-Row {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  /* border: 1px solid red; */
+}
+#LengthList {
+  margin-top: 20px;
+}
+#Input {
+  text-align: center;
+}
+#List {
+  width: 500px;
+  height: 50%;
+  margin: 10px auto;
+  overflow: auto;
+}
+#List > #itemList {
+  width: 90%;
+  padding: 20px 15px;
+  margin: 15px auto;
+  background-color: #eeeeee;
+  border-radius: 10px;
+  box-shadow: 0px 2px 4px black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: auto;
+  position: relative;
+}
+#List > #itemList > i {
+  cursor: pointer;
+}
+#List > #itemList > i:hover {
+  cursor: pointer;
+  color: #cc0000;
+}
+#ParentInput{
+  position: absolute;
+  left: 50%;
+  top: 10px;
+}
+/* ---------------------------Footer */
+.Footer {
+  width: 100%;
+  height: auto;
+  background-color: #00af7a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0px;
+}
+.Footer > small > b > .bi-heart-fill {
+  color: rgb(233, 0, 0);
+  padding: 0px 10px;
+}
+.Footer > small > b > .bi-laptop {
+  color: rgb(2, 2, 2);
+  padding: 0px 5px;
+}
+small {
+  color: red;
+}
+#Footer-Small {
+  color: #000;
+}
+
